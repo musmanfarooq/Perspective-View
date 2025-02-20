@@ -14,7 +14,7 @@ const UnSupportedDevice = (props: UnSupportedDeviceProps) => {
           check back soon.
         </p>
       ) : (
-        <p>Sorry we currently do not support this device, Please an iPhone.</p>
+        <p>Sorry we currently do not support this device, Please use an iPhone.</p>
       )}
     </Box>
   );

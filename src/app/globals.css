@@ -1,12 +1,12 @@
 :root {
   --background: rgb(15, 18, 20);
-  --foreground: #F6F7F8;
+  --foreground: #f6f7f8;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: rgb(15, 18, 20);
-    --foreground: #F6F7F8;
+    --foreground: #f6f7f8;
   }
 }
 
@@ -38,5 +38,11 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0 16px;
   }
 }
